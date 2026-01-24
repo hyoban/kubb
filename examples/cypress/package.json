@@ -22,11 +22,11 @@
     "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@kubb/cli": "workspace:*",
-    "@kubb/core": "workspace:*",
-    "@kubb/plugin-cypress": "workspace:*",
-    "@kubb/plugin-oas": "workspace:*",
-    "@kubb/plugin-ts": "workspace:*",
+    "@hyoban/kubb-cli": "workspace:*",
+    "@hyoban/kubb-core": "workspace:*",
+    "@hyoban/kubb-plugin-cypress": "workspace:*",
+    "@hyoban/kubb-plugin-oas": "workspace:*",
+    "@hyoban/kubb-plugin-ts": "workspace:*",
     "react": "^18.3.1"
   },
   "devDependencies": {

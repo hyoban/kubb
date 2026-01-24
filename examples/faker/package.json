@@ -23,12 +23,12 @@
   },
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
-    "@kubb/cli": "workspace:*",
-    "@kubb/core": "workspace:*",
-    "@kubb/plugin-client": "workspace:*",
-    "@kubb/plugin-faker": "workspace:*",
-    "@kubb/plugin-oas": "workspace:*",
-    "@kubb/plugin-ts": "workspace:*",
+    "@hyoban/kubb-cli": "workspace:*",
+    "@hyoban/kubb-core": "workspace:*",
+    "@hyoban/kubb-plugin-client": "workspace:*",
+    "@hyoban/kubb-plugin-faker": "workspace:*",
+    "@hyoban/kubb-plugin-oas": "workspace:*",
+    "@hyoban/kubb-plugin-ts": "workspace:*",
     "@kubb/react-fabric": "0.12.4",
     "dayjs": "^1.11.19",
     "react": "^18.3.1"

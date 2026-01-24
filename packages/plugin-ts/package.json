@@ -1,5 +1,5 @@
 {
-  "name": "@kubb/plugin-ts",
+  "name": "@hyoban/kubb-plugin-ts",
   "version": "4.18.4",
   "description": "TypeScript code generation plugin for Kubb, transforming OpenAPI schemas into TypeScript interfaces, types, and utility functions.",
   "keywords": [
@@ -75,10 +75,10 @@
     "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@kubb/core": "workspace:*",
+    "@hyoban/kubb-core": "workspace:*",
     "@kubb/fabric-core": "catalog:",
-    "@kubb/oas": "workspace:*",
-    "@kubb/plugin-oas": "workspace:*",
+    "@hyoban/kubb-oas": "workspace:*",
+    "@hyoban/kubb-plugin-oas": "workspace:*",
     "@kubb/react-fabric": "catalog:",
     "natural-orderby": "^5.0.0",
     "remeda": "catalog:",

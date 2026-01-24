@@ -1,5 +1,5 @@
 {
-	"name": "unplugin-kubb",
+	"name": "@hyoban/unplugin-kubb",
 	"version": "4.0.2",
 	"description": "Unplugin for Kubb",
 	"keywords": [
@@ -96,7 +96,7 @@
 		"unplugin": "^2.3.11"
 	},
 	"devDependencies": {
-		"@kubb/core": "workspace:*",
+		"@hyoban/kubb-core": "workspace:*",
 		"@nuxt/kit": "^4.3.0",
 		"@nuxt/schema": "^4.3.0",
 		"esbuild": "*",
@@ -106,7 +106,7 @@
 		"webpack": "^5.104.1"
 	},
 	"peerDependencies": {
-		"@kubb/core": "^4.0.0",
+		"@hyoban/kubb-core": "^4.0.0",
 		"@nuxt/kit": "^3",
 		"@nuxt/schema": "^3",
 		"esbuild": "*",

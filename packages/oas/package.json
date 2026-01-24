@@ -1,5 +1,5 @@
 {
-  "name": "@kubb/oas",
+  "name": "@hyoban/kubb-oas",
   "version": "4.18.4",
   "description": "OpenAPI Specification (OAS) utilities and helpers for Kubb, providing parsing, normalization, and manipulation of OpenAPI/Swagger schemas.",
   "keywords": [
@@ -59,7 +59,7 @@
     "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@kubb/core": "workspace:*",
+    "@hyoban/kubb-core": "workspace:*",
     "@redocly/openapi-core": "^2.14.7",
     "jsonpointer": "^5.0.1",
     "oas": "^28.9.0",

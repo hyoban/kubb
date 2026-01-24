@@ -110,43 +110,43 @@ importers:
       '@faker-js/faker':
         specifier: ^8.4.1
         version: 8.4.1
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-cypress':
+      '@hyoban/kubb-plugin-cypress':
         specifier: workspace:*
         version: link:../../packages/plugin-cypress
-      '@kubb/plugin-faker':
+      '@hyoban/kubb-plugin-faker':
         specifier: workspace:*
         version: link:../../packages/plugin-faker
-      '@kubb/plugin-mcp':
+      '@hyoban/kubb-plugin-mcp':
         specifier: workspace:*
         version: link:../../packages/plugin-mcp
-      '@kubb/plugin-msw':
+      '@hyoban/kubb-plugin-msw':
         specifier: workspace:*
         version: link:../../packages/plugin-msw
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-react-query':
+      '@hyoban/kubb-plugin-react-query':
         specifier: workspace:*
         version: link:../../packages/plugin-react-query
-      '@kubb/plugin-redoc':
+      '@hyoban/kubb-plugin-redoc':
         specifier: workspace:*
         version: link:../../packages/plugin-redoc
-      '@kubb/plugin-swr':
+      '@hyoban/kubb-plugin-swr':
         specifier: workspace:*
         version: link:../../packages/plugin-swr
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../../packages/plugin-zod
       '@kubb/react-fabric':
@@ -207,19 +207,19 @@ importers:
 
   examples/client:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
       '@kubb/react-fabric':
@@ -241,19 +241,19 @@ importers:
 
   examples/cypress:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-cypress':
+      '@hyoban/kubb-plugin-cypress':
         specifier: workspace:*
         version: link:../../packages/plugin-cypress
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
       react:
@@ -272,22 +272,22 @@ importers:
       '@faker-js/faker':
         specifier: ^8.4.1
         version: 8.4.1
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-faker':
+      '@hyoban/kubb-plugin-faker':
         specifier: workspace:*
         version: link:../../packages/plugin-faker
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
       '@kubb/react-fabric':
@@ -306,19 +306,19 @@ importers:
 
   examples/fetch:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
     devDependencies:
@@ -331,19 +331,19 @@ importers:
 
   examples/generators:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
       '@kubb/react-fabric':
@@ -365,22 +365,22 @@ importers:
 
   examples/mcp:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-mcp':
+      '@hyoban/kubb-plugin-mcp':
         specifier: workspace:*
         version: link:../../packages/plugin-mcp
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../../packages/plugin-zod
       '@modelcontextprotocol/sdk':
@@ -402,25 +402,25 @@ importers:
       '@faker-js/faker':
         specifier: ^8.4.1
         version: 8.4.1
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-faker':
+      '@hyoban/kubb-plugin-faker':
         specifier: workspace:*
         version: link:../../packages/plugin-faker
-      '@kubb/plugin-msw':
+      '@hyoban/kubb-plugin-msw':
         specifier: workspace:*
         version: link:../../packages/plugin-msw
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
       '@mswjs/http-middleware':
@@ -442,22 +442,22 @@ importers:
 
   examples/orpc:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../../packages/oas
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-orpc':
+      '@hyoban/kubb-plugin-orpc':
         specifier: workspace:*
         version: link:../../packages/plugin-orpc
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../../packages/plugin-zod
       '@orpc/contract':
@@ -473,24 +473,27 @@ importers:
 
   examples/react-query:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-react-query':
+      '@hyoban/kubb-plugin-react-query':
         specifier: workspace:*
         version: link:../../packages/plugin-react-query
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
+      '@hyoban/unplugin-kubb':
+        specifier: workspace:*
+        version: link:../../packages/unplugin-kubb
       '@kubb/react-fabric':
         specifier: 0.12.4
         version: 0.12.4
@@ -509,9 +512,6 @@ importers:
       react-dom:
         specifier: ^19.2.3
         version: 19.2.3(react@19.2.3)
-      unplugin-kubb:
-        specifier: workspace:*
-        version: link:../../packages/unplugin-kubb
     devDependencies:
       '@types/react':
         specifier: ^19.2.9
@@ -534,28 +534,28 @@ importers:
 
   examples/simple-single:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-react-query':
+      '@hyoban/kubb-plugin-react-query':
         specifier: workspace:*
         version: link:../../packages/plugin-react-query
-      '@kubb/plugin-redoc':
+      '@hyoban/kubb-plugin-redoc':
         specifier: workspace:*
         version: link:../../packages/plugin-redoc
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../../packages/plugin-zod
       '@tanstack/react-query':
@@ -576,25 +576,25 @@ importers:
 
   examples/solid-query:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-solid-query':
+      '@hyoban/kubb-plugin-solid-query':
         specifier: workspace:*
         version: link:../../packages/plugin-solid-query
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../../packages/plugin-zod
       '@tanstack/solid-query':
@@ -613,25 +613,25 @@ importers:
 
   examples/svelte-query:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-svelte-query':
+      '@hyoban/kubb-plugin-svelte-query':
         specifier: workspace:*
         version: link:../../packages/plugin-svelte-query
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../../packages/plugin-zod
       '@tanstack/svelte-query':
@@ -650,25 +650,25 @@ importers:
 
   examples/swr:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-swr':
+      '@hyoban/kubb-plugin-swr':
         specifier: workspace:*
         version: link:../../packages/plugin-swr
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../../packages/plugin-zod
       axios:
@@ -687,19 +687,19 @@ importers:
 
   examples/typescript:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../../packages/oas
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
       axios:
@@ -712,36 +712,36 @@ importers:
 
   examples/vue-query:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
-      '@kubb/plugin-vue-query':
+      '@hyoban/kubb-plugin-vue-query':
         specifier: workspace:*
         version: link:../../packages/plugin-vue-query
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../../packages/plugin-zod
+      '@hyoban/unplugin-kubb':
+        specifier: workspace:*
+        version: link:../../packages/unplugin-kubb
       '@tanstack/vue-query':
         specifier: 5.81.5
         version: 5.81.5(vue@3.5.27(typescript@5.9.3))
       axios:
         specifier: ^1.13.2
         version: 1.13.2
-      unplugin-kubb:
-        specifier: workspace:*
-        version: link:../../packages/unplugin-kubb
       vue:
         specifier: ^3.5.27
         version: 3.5.27(typescript@5.9.3)
@@ -761,22 +761,22 @@ importers:
 
   examples/zod:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../../packages/plugin-zod
       axios:
@@ -797,7 +797,7 @@ importers:
       '@clack/prompts':
         specifier: 1.0.0-alpha.9
         version: 1.0.0-alpha.9
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
       chokidar:
@@ -834,10 +834,10 @@ importers:
         specifier: ^0.3.2
         version: 0.3.2
     devDependencies:
-      '@kubb/mcp':
+      '@hyoban/kubb-mcp':
         specifier: workspace:*
         version: link:../mcp
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
       '@types/seedrandom':
@@ -892,16 +892,16 @@ importers:
 
   packages/kubb:
     dependencies:
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
 
   packages/mcp:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
       '@kubb/react-fabric':
@@ -919,7 +919,7 @@ importers:
 
   packages/oas:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
       '@redocly/openapi-core':
@@ -953,19 +953,19 @@ importers:
 
   packages/plugin-client:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../plugin-zod
       '@kubb/react-fabric':
@@ -978,16 +978,16 @@ importers:
 
   packages/plugin-cypress:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
       '@kubb/react-fabric':
@@ -996,16 +996,16 @@ importers:
 
   packages/plugin-faker:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
       '@kubb/react-fabric':
@@ -1014,22 +1014,22 @@ importers:
 
   packages/plugin-mcp:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../plugin-zod
       '@kubb/react-fabric':
@@ -1038,19 +1038,19 @@ importers:
 
   packages/plugin-msw:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-faker':
+      '@hyoban/kubb-plugin-faker':
         specifier: workspace:*
         version: link:../plugin-faker
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
       '@kubb/react-fabric':
@@ -1059,10 +1059,10 @@ importers:
 
   packages/plugin-oas:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
       '@kubb/react-fabric':
@@ -1077,16 +1077,16 @@ importers:
 
   packages/plugin-orpc:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../plugin-zod
       '@kubb/react-fabric':
@@ -1102,22 +1102,22 @@ importers:
 
   packages/plugin-react-query:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../plugin-zod
       '@kubb/react-fabric':
@@ -1129,13 +1129,13 @@ importers:
 
   packages/plugin-redoc:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
       '@kubb/react-fabric':
@@ -1147,22 +1147,22 @@ importers:
 
   packages/plugin-solid-query:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../plugin-zod
       '@kubb/react-fabric':
@@ -1174,22 +1174,22 @@ importers:
 
   packages/plugin-svelte-query:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../plugin-zod
       '@kubb/react-fabric':
@@ -1201,22 +1201,22 @@ importers:
 
   packages/plugin-swr:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../plugin-zod
       '@kubb/react-fabric':
@@ -1228,18 +1228,18 @@ importers:
 
   packages/plugin-ts:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
+      '@hyoban/kubb-oas':
+        specifier: workspace:*
+        version: link:../oas
+      '@hyoban/kubb-plugin-oas':
+        specifier: workspace:*
+        version: link:../plugin-oas
       '@kubb/fabric-core':
         specifier: 'catalog:'
         version: 0.12.4
-      '@kubb/oas':
-        specifier: workspace:*
-        version: link:../oas
-      '@kubb/plugin-oas':
-        specifier: workspace:*
-        version: link:../plugin-oas
       '@kubb/react-fabric':
         specifier: 'catalog:'
         version: 0.12.4
@@ -1255,22 +1255,22 @@ importers:
 
   packages/plugin-vue-query:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../plugin-client
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../plugin-zod
       '@kubb/react-fabric':
@@ -1282,16 +1282,16 @@ importers:
 
   packages/plugin-zod:
     dependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
-      '@kubb/oas':
+      '@hyoban/kubb-oas':
         specifier: workspace:*
         version: link:../oas
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../plugin-oas
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../plugin-ts
       '@kubb/react-fabric':
@@ -1311,7 +1311,7 @@ importers:
         specifier: ^2.3.11
         version: 2.3.11
     devDependencies:
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../core
       '@nuxt/kit':
@@ -1341,37 +1341,37 @@ importers:
       '@faker-js/faker':
         specifier: ^8.4.1
         version: 8.4.1
-      '@kubb/cli':
+      '@hyoban/kubb-cli':
         specifier: workspace:*
         version: link:../../packages/cli
-      '@kubb/core':
+      '@hyoban/kubb-core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@kubb/plugin-client':
+      '@hyoban/kubb-plugin-client':
         specifier: workspace:*
         version: link:../../packages/plugin-client
-      '@kubb/plugin-cypress':
+      '@hyoban/kubb-plugin-cypress':
         specifier: workspace:*
         version: link:../../packages/plugin-cypress
-      '@kubb/plugin-faker':
+      '@hyoban/kubb-plugin-faker':
         specifier: workspace:*
         version: link:../../packages/plugin-faker
-      '@kubb/plugin-msw':
+      '@hyoban/kubb-plugin-msw':
         specifier: workspace:*
         version: link:../../packages/plugin-msw
-      '@kubb/plugin-oas':
+      '@hyoban/kubb-plugin-oas':
         specifier: workspace:*
         version: link:../../packages/plugin-oas
-      '@kubb/plugin-react-query':
+      '@hyoban/kubb-plugin-react-query':
         specifier: workspace:*
         version: link:../../packages/plugin-react-query
-      '@kubb/plugin-swr':
+      '@hyoban/kubb-plugin-swr':
         specifier: workspace:*
         version: link:../../packages/plugin-swr
-      '@kubb/plugin-ts':
+      '@hyoban/kubb-plugin-ts':
         specifier: workspace:*
         version: link:../../packages/plugin-ts
-      '@kubb/plugin-zod':
+      '@hyoban/kubb-plugin-zod':
         specifier: workspace:*
         version: link:../../packages/plugin-zod
       '@kubb/react-fabric':

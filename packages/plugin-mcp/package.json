@@ -1,5 +1,5 @@
 {
-  "name": "@kubb/plugin-mcp",
+  "name": "@hyoban/kubb-plugin-mcp",
   "version": "4.18.4",
   "description": "Generator mcp",
   "keywords": [
@@ -80,12 +80,12 @@
     "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@kubb/core": "workspace:*",
-    "@kubb/oas": "workspace:*",
-    "@kubb/plugin-client": "workspace:*",
-    "@kubb/plugin-oas": "workspace:*",
-    "@kubb/plugin-ts": "workspace:*",
-    "@kubb/plugin-zod": "workspace:*",
+    "@hyoban/kubb-core": "workspace:*",
+    "@hyoban/kubb-oas": "workspace:*",
+    "@hyoban/kubb-plugin-client": "workspace:*",
+    "@hyoban/kubb-plugin-oas": "workspace:*",
+    "@hyoban/kubb-plugin-ts": "workspace:*",
+    "@hyoban/kubb-plugin-zod": "workspace:*",
     "@kubb/react-fabric": "catalog:"
   },
   "devDependencies": {},

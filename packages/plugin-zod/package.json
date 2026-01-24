@@ -1,5 +1,5 @@
 {
-  "name": "@kubb/plugin-zod",
+  "name": "@hyoban/kubb-plugin-zod",
   "version": "4.18.4",
   "description": "Zod schema generator plugin for Kubb, creating type-safe validation schemas from OpenAPI specifications for runtime data validation.",
   "keywords": [
@@ -79,10 +79,10 @@
     "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@kubb/core": "workspace:*",
-    "@kubb/oas": "workspace:*",
-    "@kubb/plugin-oas": "workspace:*",
-    "@kubb/plugin-ts": "workspace:*",
+    "@hyoban/kubb-core": "workspace:*",
+    "@hyoban/kubb-oas": "workspace:*",
+    "@hyoban/kubb-plugin-oas": "workspace:*",
+    "@hyoban/kubb-plugin-ts": "workspace:*",
     "@kubb/react-fabric": "catalog:"
   },
   "devDependencies": {

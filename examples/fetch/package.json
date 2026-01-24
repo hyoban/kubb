@@ -18,11 +18,11 @@
     "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@kubb/cli": "workspace:*",
-    "@kubb/core": "workspace:*",
-    "@kubb/plugin-client": "workspace:*",
-    "@kubb/plugin-oas": "workspace:*",
-    "@kubb/plugin-ts": "workspace:*"
+    "@hyoban/kubb-cli": "workspace:*",
+    "@hyoban/kubb-core": "workspace:*",
+    "@hyoban/kubb-plugin-client": "workspace:*",
+    "@hyoban/kubb-plugin-oas": "workspace:*",
+    "@hyoban/kubb-plugin-ts": "workspace:*"
   },
   "devDependencies": {
     "react": "^18.3.1",

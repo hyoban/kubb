@@ -17,12 +17,12 @@
     "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@kubb/cli": "workspace:*",
-    "@kubb/core": "workspace:*",
-    "@kubb/oas": "workspace:*",
-    "@kubb/plugin-oas": "workspace:*",
-    "@kubb/plugin-orpc": "workspace:*",
-    "@kubb/plugin-zod": "workspace:*",
+    "@hyoban/kubb-cli": "workspace:*",
+    "@hyoban/kubb-core": "workspace:*",
+    "@hyoban/kubb-oas": "workspace:*",
+    "@hyoban/kubb-plugin-oas": "workspace:*",
+    "@hyoban/kubb-plugin-orpc": "workspace:*",
+    "@hyoban/kubb-plugin-zod": "workspace:*",
     "@orpc/contract": "^1.4.3",
     "zod": "^3.25.76"
   },

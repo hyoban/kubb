@@ -18,12 +18,12 @@
     "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@kubb/cli": "workspace:*",
-    "@kubb/core": "workspace:*",
-    "@kubb/plugin-mcp": "workspace:*",
-    "@kubb/plugin-oas": "workspace:*",
-    "@kubb/plugin-ts": "workspace:*",
-    "@kubb/plugin-zod": "workspace:*",
+    "@hyoban/kubb-cli": "workspace:*",
+    "@hyoban/kubb-core": "workspace:*",
+    "@hyoban/kubb-plugin-mcp": "workspace:*",
+    "@hyoban/kubb-plugin-oas": "workspace:*",
+    "@hyoban/kubb-plugin-ts": "workspace:*",
+    "@hyoban/kubb-plugin-zod": "workspace:*",
     "@modelcontextprotocol/sdk": "1.22.0",
     "axios": "^1.13.2",
     "zod": "^3.25.76"

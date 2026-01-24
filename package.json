@@ -1,5 +1,5 @@
 {
-	"name": "@kubb/root",
+	"name": "@hyoban/kubb-root",
 	"version": "0.0.0",
 	"private": true,
 	"description": "Kubb's monorepo",
@@ -80,5 +80,5 @@
 			"esbuild"
 		]
 	},
-	"namespace": "@kubb"
+	"namespace": "@hyoban"
 }

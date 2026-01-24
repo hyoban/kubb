@@ -1,5 +1,5 @@
 {
-  "name": "@kubb/plugin-cypress",
+  "name": "@hyoban/kubb-plugin-cypress",
   "version": "4.18.4",
   "description": "Cypress test generator plugin for Kubb, creating end-to-end tests from OpenAPI specifications for automated API testing.",
   "keywords": [
@@ -85,10 +85,10 @@
     "typecheck": "tsc -p ./tsconfig.json --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@kubb/core": "workspace:*",
-    "@kubb/oas": "workspace:*",
-    "@kubb/plugin-oas": "workspace:*",
-    "@kubb/plugin-ts": "workspace:*",
+    "@hyoban/kubb-core": "workspace:*",
+    "@hyoban/kubb-oas": "workspace:*",
+    "@hyoban/kubb-plugin-oas": "workspace:*",
+    "@hyoban/kubb-plugin-ts": "workspace:*",
     "@kubb/react-fabric": "catalog:"
   },
   "engines": {
